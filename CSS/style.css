@@ -136,6 +136,11 @@ a {
   color: #757575;
 }
 
+.main-ul h4,
+p {
+  text-align: left;
+}
+
 .footer-div {
   margin-top: 174px;
 }
