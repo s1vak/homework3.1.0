@@ -1,0 +1,160 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.container {
+  margin: 0 auto;
+  width: 1450px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.first-ul {
+  display: flex;
+  margin-left: 93px;
+}
+.first-ul .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875em;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.first-ul .link:hover {
+  color: #2196f3;
+}
+.first-ul .item:not(:last-child) {
+  margin-right: 50px;
+}
+.second-ul {
+  display: flex;
+  margin-left: auto;
+}
+.second-ul .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875em;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.second-ul .item + .item {
+  margin-left: 50px;
+}
+
+.filtrs {
+  display: flex;
+}
+
+.third-ul {
+  display: flex;
+  padding-top: 132px;
+}
+
+.third-ul .button-filtr {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.62em;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+
+  border: 1px solid #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+  background-color: #f5f4fa;
+}
+.button-filtr:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+.third-ul .item + .item {
+  margin-left: 52px;
+}
+
+.main-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-ul .item {
+  text-align: center;
+  width: calc((100% - 90px) / 3);
+  margin-right: 35px;
+  margin-bottom: 35px;
+  margin-top: 56px;
+}
+.item:nth-child(3n) {
+  margin-right: 0;
+}
+.item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.main-ul h4 {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.main-ul p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.footer-div {
+  margin-top: 174px;
+}
+.footer-ul {
+  padding-top: 20px;
+}
+.footer-ul .item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.58em;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.footer-ul a {
+  color: #757575;
+}
+
+.footer-ul .item + .item {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
